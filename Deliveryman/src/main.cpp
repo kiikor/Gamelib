@@ -44,7 +44,7 @@ int main()
 	cout << "《--------Congratulation`s! you won.---------》" << endl;
 	delete[] state;
 	state = 0;
-	cout << "销毁" << endl;//一定要及时使用delete
+	//一定要及时使用delete
 }
 
 void init(Object* state, int w, int h, const char* gMapData)
